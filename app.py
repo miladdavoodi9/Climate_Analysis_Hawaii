@@ -60,7 +60,7 @@ def precipitation():
 def stations():
     session = Session(engine)
 
-    station = session.query(Measurement.station) 
+    station = session.query(Measurement.station).all()
 
     session.close()
     
