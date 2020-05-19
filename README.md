@@ -24,5 +24,17 @@ Station Analysis
      - Plot the results as histogram
      - ![](graphs/Histogram_Temperature%20Frequency.png)
   
-Climate API
-  - Create routes to include data found and return JSON data through Flask API
+## Climate API
+  - Design a Flask API based on queries that have been deployed and return JSON called data
+  
+  Routes
+  - /
+    - Home page
+    - List all routes that are available
+  - /api/v1.0/precipitation
+  - /api/v1.0/stations
+  - /api/v1.0/tobs
+  - /api/v1.0/<start> and /api/v1.0/<start>/<end>
+    - Given the start only date, calculate minimum, maximum, and average for all dates greater than
+    - Given the start and end dates, calculate the minimum, maximum and average for dates inclusive of range given
+  
