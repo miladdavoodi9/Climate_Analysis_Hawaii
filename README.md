@@ -22,7 +22,7 @@ Station Analysis
   - Design a query to retrieve the last 12 months of termperature observation data (tobs)
      - Filter by stations with the highest number of observations
      - Plot the results as histogram
-     ![](graphs/Histogram_Temperature%20Frequency.png
+     - ![](graphs/Histogram_Temperature%20Frequency.png)
   
 Climate API
   - Create routes to include data found and return JSON data through Flask API
